@@ -3,8 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Practice File
+# Practice Files
 Practice.ipynb
+Mission-to-Mars-Lesson.ipynb
+Mission-to-Mars-Challenge.py
 
 # C extensions
 *.so
