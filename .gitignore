@@ -8,6 +8,9 @@ Practice.ipynb
 Mission-to-Mars-Lesson.ipynb
 Mission-to-Mars-Challenge.py
 
+# .DS_Store
+*.DS_Store
+
 # C extensions
 *.so
 
