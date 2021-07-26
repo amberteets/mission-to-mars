@@ -1,3 +1,33 @@
+:root {
+    --tea-rose: #FFCDB2;
+    --melon: #FFB4A2;
+    --pastel-pink: #E5989B;
+    --english-lavender: #B5838D;
+    --neutral-gray: #6D6875;
+}
+
+.jumbotron {
+    background-color: var(--tea-rose);
+}
+
 .jumbotron h1{
-    color: #ff69b4 !important;
+    color: var(--neutral-gray);
+}
+
+.btn-info.active, .btn-info:active, .open>.dropdown-toggle.btn-info {
+    color: #fff;
+    background-color: var(--english-lavender);
+    border-color: var(--english-lavender);
+}
+
+.h1, .h2, h1, h2 {
+    color: var(--english-lavender);
+}
+
+.h3, .h4, h3, h4 {
+    color: var(--neutral-gray)
+}
+
+.h3, h3 {
+    text-align: center;
 }
