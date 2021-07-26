@@ -21,7 +21,8 @@ def scrape_all():
         "featured_image": featured_image(browser),
         "facts": mars_facts(),
         "last_modified": dt.datetime.now(),
-        "hemispheres": hemispheres_dict}
+        "hemispheres": hemispheres_dict,
+        }
 
     # Stop webdriver and return data
     browser.quit()
@@ -92,11 +93,11 @@ def mars_facts():
         return None
 
     # Assign columns and set index of DataFrame
-    df.columns=['description', 'value']
-    df.set_index('description', inplace=True)
+    df.columns=['Description', 'Mars']
+    df.set_index('Description', inplace=True)
 
-    # Convert back to HTML-ready code
-    return df.to_html()
+    # Convert back to HTML-ready code with Bootstrap component
+    return df.to_html(classes="table table-striped", justify="center")
 
 def mars_hemispheres(browser):
 
