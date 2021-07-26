@@ -4,6 +4,8 @@
 
 In this project, a web browser is automated to visit different websites to extract data about Mars. The data is stored in a NoSQL database, and rendered in a web application via Flask.
 
+![Screenshot of App Homepage](https://github.com/amberteets/mission-to-mars/blob/main/images/app_demo.png)
+
 ### Objectives
 
 - Use BeautifulSoup and Splinter to perform an automated web scrape
